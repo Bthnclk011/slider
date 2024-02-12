@@ -1,0 +1,37 @@
+.slider
+{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    align-items: center;
+    
+}
+.image-slider
+{
+    width: 1000px;
+    justify-self: center;
+    display:flex;
+    flex-direction: row;
+    
+}
+.image-slider > img
+{
+    width: 1000px;
+    height: 300px;
+}
+.hidden
+{
+    display:none;
+}
+.navigation
+{
+    height: 20px;
+    background-color:blueviolet;
+    display:flex;
+    justify-content: center;
+}
+
+.navigation > button
+{
+    border-radius: 70%;
+}
